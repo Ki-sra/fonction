@@ -5,8 +5,8 @@ def permuter(index1, index2):
 def oredrdec():
     for i in range(len(t) - 1):
         for j in range(len(t) - 1 - i):
-            if t[j] < t[j + 1]:  # Si l'élément courant est inférieur au suivant
-                permuter(t[j],t[j+1] )  # Utiliser la fonction permuter pour échanger les éléments
+            if t[j] < t[j + 1]:  
+                permuter(t[j],t[j+1] )  
 
 oredrdec()
 
